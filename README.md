@@ -26,7 +26,7 @@ npm start
 Access the application by navigating to http://localhost:3000 in your browser.
 Use the interactive tasks and engage with the avatar for real-time feedback.
 
-6. 
+6.  ![image alt](https://github.com/Amen1235f/language/blob/main/Capture.PNG?raw=true)
 7. Team Members
 Amen Allah Bejaoui: Lead Developer
 
