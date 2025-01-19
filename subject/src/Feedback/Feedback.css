@@ -1,0 +1,38 @@
+/* Feedback.css */
+.feedback-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+  
+  .feedback-container h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-item {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .feedback-item p strong {
+    font-weight: bold;
+  }
+  
+  .feedback-item p span {
+    color: green;
+  }
+  

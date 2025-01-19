@@ -1,0 +1,118 @@
+
+  /* Container for the exercises */
+  .exercises-container {
+    padding: 20px;
+    max-width: 800px;
+margin-top: 10%;   
+margin-left: 20%;
+background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #4D3F69;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #9D9BEB;
+  }
+  
+  /* Task description */
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Input and button styles */
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4D3F69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #9D9BEB;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Message styles */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  p.correct {
+    color: green;
+  }
+  
+  p.incorrect {
+    color: red;
+  }
+  
+  /* Exercise button styles */
+  .exercise-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .exercise-buttons button {
+    width: 48%;
+  }
+  
+  .exercise-buttons .next-exercise {
+    background-color: #9D9BEB;
+  }
+  
+  .exercise-buttons .next-exercise:hover {
+    background-color: #4D3F69;
+  }
+  
+  /* Styles for the image-choice exercise */
+  .exercise-buttons button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .exercise-buttons .image-choice {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .exercise-buttons .image-choice button {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  .exercise-buttons .timed-challenge {
+    text-align: center;
+    margin-top: 15px;
+  }
+  

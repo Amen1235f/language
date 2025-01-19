@@ -1,0 +1,35 @@
+.calendar-container {
+    text-align: center;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .calendar-day {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .calendar-day.tracked {
+    background-color: #ff0; /* Highlight days with tasks */
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+  }
+  
+  .tasks ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
